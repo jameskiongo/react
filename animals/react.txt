@@ -1,0 +1,21 @@
+using events 
+we use events when we want to be notified any time a user interacts with the site
+a. Decide what kind of event you want to watch for eg (onclick)((google react events))
+most common {onclick: user clicks on smthng, onChange:user types in a text input}
+b. create a function(called an event handler or callback function)
+c. Name the function using pattern of hanle + EventName(eg onClick)
+d. Pass the function as a prop to a plain element(eg button, div)
+e. Make sure to pass the function using a valid event name(eg onClick = {function name})
+f. make sure you pass a reference to the function(don't add () after function name)
+Use State
+State: data that changes as the user interacts with our app
+when this data changes, react will update content on the screen automatically
+steps
+1. define a piece of state using usestate function-import from react
+const [count, setCount] = useState(0);
+0 is the default value for the piece of state
+[count, setCount] ie count piece of state(the thing that will change over time)
+setCount: setter function- function used to update piece of state
+2. give a value to the useState function
+3. use the state in some ways in our components
+4. when user does something, update the piece of state.
