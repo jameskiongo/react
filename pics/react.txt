@@ -1,0 +1,26 @@
+HTTP requests and response
+requests - can you give me some images 
+response - here is an array of ojbects. each object has info about an image
+http methods
+get - get some information from the server
+post - tell the server to create some new record
+put - completely update an existing record
+patch - partially update an existing record
+del - delete a record
+http status codes
+200, 201,204 - record was successful
+400 - something about your request is bad
+401 - unauthorized. provide credentials
+403 - forbidden. You aren't allowed to access this
+404 - Not found
+500 - internal server error
+Axios how to
+axios.get(url,{
+  headers: {
+((headers we want to add into the request))
+  }, 
+  params:{
+((keyvalue pairs that will be turned to string))
+  }
+})
+handling text inputs 
